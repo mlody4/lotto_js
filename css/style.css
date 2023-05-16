@@ -1,0 +1,24 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+button {
+    display: block;
+    margin: 0 auto;
+}
+
+.balls {
+    display: flex;
+    justify-content: center;
+}
+
+.balls div {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgb(80, 80, 216);
+    color: white;
+    line-height: 50px;
+    text-align: center;
+    margin: 30px;
+}   
